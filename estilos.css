@@ -1,0 +1,83 @@
+/* Aspeto geral da página */
+body {
+    background-color: #e8edf2;
+    color: #263238;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Cabeçalho principal */
+header {
+    background-color: #183a4a;
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #f4c95d;
+    font-family: Georgia, "Times New Roman", serif;
+    margin-bottom: 8px;
+}
+
+h2 {
+    color: #176b72;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+/* Blocos de conteúdo */
+section {
+    background-color: #ffffff;
+    margin: 24px auto;
+    padding: 22px;
+    max-width: 850px;
+    border-radius: 8px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Parágrafo em destaque */
+.destaque {
+    background-color: #fff1c7;
+    color: #493b19;
+    margin: 22px 10px;
+    padding: 14px;
+    border-left: 5px solid #e0a82e;
+}
+
+/* Lista e imagem */
+li {
+    margin: 12px 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 18px auto;
+}
+
+a {
+    color: #087e8b;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #b45309;
+}
+
+/* Nota final e rodapé */
+.nota {
+    background-color: #e4f2f1;
+    margin-top: 24px;
+    padding: 12px 18px;
+}
+
+footer {
+    background-color: #183a4a;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+}
